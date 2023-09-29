@@ -1,12 +1,35 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+:root .theme_light {
+  --desktop-shadow-title: #ff0070;
+  --accent-color: #ff8dcb;
+  --accent-color-text: #353430;
+  --hover-button: rgba(50, 49, 45, 0.4);
+  --title-color: #ffc2e6;
+  --subtitle-font-color: #353430;
+  --font-color: #353430;
+  --background-color: #fff1f7;
+  --image: url(../images/cover-image-light.png);
+  --font: IBM Plex Mono;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --accent-color-text: #353430;
+    --hover-button: rgba(50, 49, 45, 0.4);
+    --title-color: #ffc2e6;
+    --subtitle-font-color: #353430;
+    --font-color: #353430;
+    --background-color: #fff1f7;
+    --image: url(../images/cover-image-light.png);
+    --font: "IBM Plex Mono";
+  }
+}
+.page.theme_light .decoration {
+  display: none;
 }

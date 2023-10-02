@@ -1,10 +1,4 @@
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
-:root .theme_light {
   --desktop-shadow-title: #ff0070;
   --accent-color: #ff8dcb;
   --accent-color-text: #353430;
@@ -15,6 +9,8 @@
   --background-color: #fff1f7;
   --image: url(../images/cover-image-light.png);
   --font: IBM Plex Mono;
+  --small-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --large-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
 @media (prefers-color-scheme: light) {
@@ -28,6 +24,9 @@
     --background-color: #fff1f7;
     --image: url(../images/cover-image-light.png);
     --font: "IBM Plex Mono";
+  }
+  .page.theme_auto .decoration {
+    display: none;
   }
 }
 .page.theme_light .decoration {

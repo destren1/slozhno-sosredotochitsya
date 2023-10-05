@@ -25,10 +25,11 @@
     --image: url(../images/cover-image-light.png);
     --font: "IBM Plex Mono";
   }
-  .page.theme_auto .decoration {
+  .decoration {
     display: none;
   }
 }
+
 .page.theme_light .decoration {
   display: none;
 }

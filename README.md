@@ -4,13 +4,13 @@
 
 <p align="Left"> Веб-страница, рассматривающая причины отсутствия концентрации и предоставляющая советы по её улучшению. </p>
 
+<a  href="https://destren1.github.io/slozhno-sosredotochitsya/" target="_blank" align="center"><img src="./images/slozhno-sosredotochitsa_video.gif" width="100%" alt="Гифка с обзором сайта"></a>
+
 [Открыть в браузере](https://destren1.github.io/slozhno-sosredotochitsya/)
 
 ## Функционал:
 
 - Возможность поставить светлую/темную тему
-
-<a  href="https://destren1.github.io/slozhno-sosredotochitsya/" target="_blank" align="center"><img src="./images/slozhno-sosredotochitsa_video.gif" width="100%" alt="Гифка с обзором сайта"></a>
 
 ## Технологии, использованные при создании:
 
